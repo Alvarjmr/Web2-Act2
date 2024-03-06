@@ -1,0 +1,41 @@
+.contenido {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 20%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 60%;
+  height: 80vh;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main aside {
+  width: 40%;
+  height: 30vh;
+  background-color: rgb(255, 115, 0);
+  display: inline-block;
+  justify-content: right;
+  align-items: flex-end;
+}
+aside {
+  width: 20%;
+  height: 80vh;
+  background-color: rgb(43, 226, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
